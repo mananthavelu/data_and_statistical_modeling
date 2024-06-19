@@ -37,6 +37,9 @@ def calculate_median(input_data):
 print(f"The median using built-in function: {round(sample_median)}")
 print(f"The median using function: {round(calculate_median(sample_data))}")
 
+print("Successful" if calculate_median([1,2,3,4,5,6,7]) == 4 else "Error")
+print("Successful" if calculate_median([10,28,38,4,95,6,57]) == 28 else "Error")
+
 # Sample mode
 sample_mode = statistics.mode(sample_data)
 

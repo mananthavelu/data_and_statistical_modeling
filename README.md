@@ -9,3 +9,5 @@ Data and Statistical modelling - refresher
      * inter quartile range
      * variance
      * standard deviation
+  3. Sampling distributions
+  4. Central limit theorem

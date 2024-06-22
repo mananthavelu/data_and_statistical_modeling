@@ -10,6 +10,8 @@ population_data = np.array(list(range(1000)))# Usually unknown
 sample_data = [15, 36, 39, 42, 48, 54, 57, 63, 72, 85, 89, 90, 91, 94, 99]
 
 # Dispersion
+# Five number summary -Min, Max, Median, Q1, Q3 (IQR)
+
 # Range
 range_of_sample = max(sample_data) - min(sample_data)
 print(f"Range is {range_of_sample}")

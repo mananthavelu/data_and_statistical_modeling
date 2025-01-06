@@ -3,10 +3,10 @@ import numpy as np
 import statistics
 import matplotlib.pyplot as plt
 
-# Generate population date
-population_data = np.array(list(range(1000)))# Usually unknown
+# Generate population data
+population_data = np.array(list(range(1000)))# This data is usually unknown
 
-# sample_data = np.random.choice(population_data, size = 50, replace=True)
+# sample_data = np.random.choice(population_data, size = 15, replace=True)
 sample_data = [15, 36, 39, 42, 48, 54, 57, 63, 72, 85, 89, 90, 91, 94, 99]
 
 # Central tendency/ Measure of central value
@@ -30,14 +30,14 @@ def calculate_median(input_data):
     input_data.sort()
     length_of_input_data = len(input_data)
     if len(input_data) % 2 == 0:
-        return (input_data[length_of_input_data//2] + input_data[length_of_input_data//2 + 1])
+        return (input_data[length_of_input_data//2] + input_data[length_of_input_data//2 - 1]) / 2
     else:
         return input_data[len(input_data)//2]
 
 print(f"The median using built-in function: {round(sample_median)}")
 print(f"The median using function: {round(calculate_median(sample_data))}")
 
-print("Successful" if calculate_median([1,2,3,4,5,6,7]) == 4 else "Error")
+print("Successful" if calculate_median([1,2,3,4,5,6,7,8]) == 4.5 else "Error")
 print("Successful" if calculate_median([10,28,38,4,95,6,57]) == 28 else "Error")
 
 # Sample mode

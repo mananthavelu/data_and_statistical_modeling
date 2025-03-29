@@ -14,4 +14,3 @@ pdf = (1 / (sigma * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mu) / sigma) ** 2
 
 plt.plot(x, pdf, color='red')
 plt.show()
-

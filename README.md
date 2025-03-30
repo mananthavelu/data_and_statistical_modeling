@@ -1,4 +1,4 @@
-Data and Statistical modelling - refresher
+Data and Statistical modelling - refresher (work in progress)
   1. Measure of central value
      * mean
      * median

@@ -1,4 +1,3 @@
-
 # Import needed libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -31,7 +30,6 @@ mean_of_population = np.mean(sample_data)
 mean_of_sampling_distribution = np.mean(mean_size_5)
 print(f"mean of the population: {mean_of_population},\nmean of the sampling distribution: {mean_of_sampling_distribution}")
 # In this case however, we can infer that the mean of the sampling distribution obtained is closer to the population mean
-
 
 # Variance and standard deviation of the population vs sampling distribution
 mean_5 = np.mean(mean_size_5)

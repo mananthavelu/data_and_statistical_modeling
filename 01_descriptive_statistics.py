@@ -40,11 +40,9 @@ print(mean_3, var_3, std_3)
 import matplotlib.pyplot as plt
 plt.hist(mean_size_3, alpha = 0.6, label = 'Sample size 3')
 
-
 # Meansure of central value
 
 # Mean
-
 # Method -1
 def calculate_mean_method_one(list_of_values):
     """
@@ -80,10 +78,7 @@ def calculate_mean_method_two(list_of_values):
     return f"The mean is {sum(list_of_values)/len(list_of_values)}"
 
 #print(calculate_mean_method_two([10,12,14]))
-
-
 # Median
-
 # Method - 1
 
 def calculate_median_method_one(list_of_values):
@@ -117,7 +112,6 @@ def calculate_median_method_one(list_of_values):
 
 print("Successful" if calculate_median_method_one([1,2,3,3,5,6,7]) == 3 else "Error")
 print("Successful" if calculate_median_method_one([1,2,3,3,5,5,5,6,7]) == 5 else "Error")
-
 
 # Percentiles / Quantiles
 

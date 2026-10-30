@@ -32,13 +32,13 @@ print(f"sample_mean :{sample_mean}, var_sample : {var_sample}, std_sample: {std_
 
 # The population variables are inferred from the sample data
 
-var_3 = np.var(mean_size_3)
-std_3 = np.std(mean_size_3)
-mean_3 = np.mean(mean_size_3)
+var_3 = np.var(sample_mean)
+std_3 = np.std(sample_mean)
+mean_3 = np.mean(sample_mean)
 print(mean_3, var_3, std_3)
 
 import matplotlib.pyplot as plt
-plt.hist(mean_size_3, alpha = 0.6, label = 'Sample size 3')
+plt.hist(sample_mean, alpha = 0.6, label = 'Sample size 3')
 
 # Meansure of central value
 
